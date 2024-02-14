@@ -1,0 +1,8 @@
+connected to regtest
+Transaction hash: 03d1160be9d61405c49a9974e9dd4c813b6b546ecc398017b35e417cf529ae43
+Transaction hash: 32e4b4678106b86ddb90a77e66ec14f912bad0f5e573066ee192970330a2e1e9
+Transaction hash: f684488317a7fecc2af4c76ac346aa19533b01c6ba707338eb9ae4ae68d9191c
+
+
+#rejected fee rate - this showed me that the fee has to be higher if you are trying to create the same transaction because the node will assume that you are trying to do a replace by fee
+bitcoinrpc.authproxy.JSONRPCException: -26: insufficient fee, rejecting replacement 93168ecdbeac9bef0316421ccaf629f660a8a46995f51014cc13bccb8b92112c; new feerate 0.00002000 BTC/kvB <= old feerate 0.00015000 BTC/kvB

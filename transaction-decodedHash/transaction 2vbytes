@@ -1,0 +1,43 @@
+root@LAPTOP-KPOHBSS5:~# bitcoin-cli gettransaction "03d1160be9d61405c49a9974e9dd4c813b6b546ecc398017b35e417cf529ae43"
+{
+  "amount": 0.00000000,
+  "fee": -0.00000282,
+  "confirmations": 0,
+  "trusted": false,
+  "txid": "03d1160be9d61405c49a9974e9dd4c813b6b546ecc398017b35e417cf529ae43",
+  "wtxid": "a03cc6edf2004d8f1019c99a17e017ae224b4a9bffafebd93925d76e1b18fe89",
+  "walletconflicts": [
+    "f684488317a7fecc2af4c76ac346aa19533b01c6ba707338eb9ae4ae68d9191c",
+    "32e4b4678106b86ddb90a77e66ec14f912bad0f5e573066ee192970330a2e1e9"
+  ],
+  "time": 1707644636,
+  "timereceived": 1707644636,
+  "bip125-replaceable": "yes",
+  "details": [
+    {
+      "address": "bcrt1qfcjtjle6fs0xmwm6ly9rcnkmwr0z07w8ma7zz5",
+      "category": "send",
+      "amount": -0.00100000,
+      "label": "",
+      "vout": 0,
+      "fee": -0.00000282,
+      "abandoned": false
+    },
+    {
+      "address": "bcrt1qfcjtjle6fs0xmwm6ly9rcnkmwr0z07w8ma7zz5",
+      "parent_descs": [
+        "wpkh(tpubD6NzVbkrYhZ4XuL6YBZFkVu147a5HxKkydwzUw2ymdooS3X7S3uz5wXduPpq9xmszuDt4n5zFW58hynnwUdcrcYtAPaQVAuhvkbsXs2FVkX/84h/1h/0h/0/*)#e45aj86n"
+      ],
+      "category": "receive",
+      "amount": 0.00100000,
+      "label": "",
+      "vout": 0,
+      "abandoned": false
+    }
+  ],
+  "hex": "020000000001018c14936aa9e0811b2a4f73707fc2bcabfc60861e2c15bca569008fcd9244b3450000000000fdffffff02a0860100000000001600144e24b97f3a4c1e6dbb7af90a3c4edb70de27f9c7466a042a01000000160014e471aee501a878fd96a66d4e8bfb8ac5791faf7f02473044022018d2d3bd20ef10ff4bee041bda9aabfe49352df525b0f990d4ff9095592d3e6d022069517ee758c573f287df730d53424c98e4b30cf916ad3a85601eb2fcabd05a68012103adf3f32b88fcf618aa2de6cf6d32951b939a74390558e32ac915438ea04617a500000000",
+  "lastprocessedblock": {
+    "hash": "66503cdd1c1be8cc1d9a6ebada0e1f01de82839b543d29a77e4724d365c9377c",
+    "height": 228
+  }
+}
